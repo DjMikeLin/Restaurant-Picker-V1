@@ -1,6 +1,5 @@
 import React from 'react';
 import {getRestaurants, deleteRestaurant} from './axiosRouter';
-import {BrowserRouter as Router, Route, Redirect, Switch} from 'react-router-dom';
 import NewRestaurant from './NewRestaurant';
 import Button from 'react-bootstrap/Button';
 import styled from 'styled-components';
